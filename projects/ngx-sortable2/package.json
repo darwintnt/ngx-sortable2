@@ -1,0 +1,26 @@
+{
+  "name": "ngx-sortable2",
+  "description": "Angular sortablejs bindings.",
+  "version": "0.0.1",
+  "keywords": [
+    "ngx-sortable2",
+    "ngx-sortablejs",
+    "angular-sortablejs",
+    "sortablejs",
+    "angular",
+    "sortable",
+    "draggable"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "sortablejs": ">=1.15.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/sortablejs": "^1.15.1"
+  }
+}

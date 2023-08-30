@@ -11,9 +11,21 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      // "ngx-sortable2": [
+      //   "dist/ngx-sortable2"
+      // ],
+      "ngx-sortable2": [
+        "./projects/ngx-sortable2"
+      ],
+      "ngx-sortable2/*": [
+        "./projects/ngx-sortable2/*"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
@@ -22,6 +34,9 @@
     "lib": [
       "ES2022",
       "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types/"
     ]
   },
   "angularCompilerOptions": {
