@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgxSortable2Module } from 'ngx-sortable2/src/lib/ngx-sortable2.module';
+import { NgxSortable2Module } from 'ngx-sortable2';
+
 
 
 @NgModule({

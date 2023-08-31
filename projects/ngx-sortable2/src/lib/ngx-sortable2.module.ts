@@ -1,7 +1,7 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { GLOBALS } from './globals';
-import { Options } from 'sortablejs';
 import { NgxSortable2Directive } from './ngx-sortable2.directive';
+import { Options } from 'sortablejs';
 
 @NgModule({
   declarations: [NgxSortable2Directive],

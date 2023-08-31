@@ -1,5 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-
 import { NgxSortable2Service } from './ngx-sortable2.service';
 
 describe('NgxSortable2Service', () => {

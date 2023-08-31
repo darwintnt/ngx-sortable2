@@ -12,6 +12,19 @@
     "draggable"
   ],
   "license": "MIT",
+  "scripts": {
+    "watch": "ng build ngx-sortable2 --configuration \"development\" --watch",
+    "build": "ng build ngx-sortable2 --configuration \"production\"",
+    "lint": "ng lint ngx-sortable2",
+    "lint:fix": "yarn lint --fix",
+    "_lint:html": "js-beautify --type html -r -f ./src/**/*.html --config ./js-beautify.json",
+    "_lint:sass": "stylelint \"src/**/*.scss\"",
+    "_lint:sass:fix": "yarn lint:sass --fix",
+    "test": "ng test ngx-sortable2 --no-watch",
+    "test:watch": "ng test ngx-sortable2",
+    "docs": "npx compodoc -c .compodocrc.json",
+    "docs:json": "yarn docs --exportFormat json --output ../demo/src/app/ngx-sortable2"
+  },
   "peerDependencies": {
     "@angular/common": "^11.0.0",
     "@angular/core": "^11.0.0",
@@ -21,6 +34,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@angular-eslint/schematics": "^16.1.1",
     "@types/sortablejs": "^1.15.1"
   }
 }

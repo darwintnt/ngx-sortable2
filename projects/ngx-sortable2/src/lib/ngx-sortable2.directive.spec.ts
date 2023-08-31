@@ -1,5 +1,5 @@
-import { TestBed, waitForAsync } from '@angular/core/testing';
 import { Component } from '@angular/core';
+import { TestBed, waitForAsync } from '@angular/core/testing';
 import { NgxSortable2Module } from './ngx-sortable2.module';
 
 describe('NgxSortable2Component', () => {

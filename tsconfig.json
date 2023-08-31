@@ -12,14 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      // "ngx-sortable2": [
-      //   "dist/ngx-sortable2"
-      // ],
       "ngx-sortable2": [
-        "./projects/ngx-sortable2"
-      ],
-      "ngx-sortable2/*": [
-        "./projects/ngx-sortable2/*"
+        "dist/ngx-sortable2"
       ]
     },
     "declaration": false,
