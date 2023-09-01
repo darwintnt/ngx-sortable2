@@ -8,6 +8,15 @@
     "inlineSources": true,
     "types": []
   },
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "compilationMode": "partial",
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableResourceInlining": true
+  },
   "exclude": [
     "**/*.spec.ts",
     "src/test.ts",

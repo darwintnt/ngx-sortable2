@@ -8,8 +8,6 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgxSortable2Module } from 'ngx-sortable2';
 
-
-
 @NgModule({
   declarations: [
     AppComponent

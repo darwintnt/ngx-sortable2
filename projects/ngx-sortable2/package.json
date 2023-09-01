@@ -26,15 +26,14 @@
     "docs:json": "yarn docs --exportFormat json --output ../demo/src/app/ngx-sortable2"
   },
   "peerDependencies": {
-    "@angular/common": "^11.0.0",
-    "@angular/core": "^11.0.0",
-    "sortablejs": ">=1.15.0"
+    "@angular/common": ">=11.0.0",
+    "@angular/core": ">=11.0.0",
+    "sortablejs": "^1.15.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular-eslint/schematics": "^16.1.1",
-    "@types/sortablejs": "^1.15.1"
+    "@types/sortablejs": "1.15.1"
   }
 }
